@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" 
+    android:background="@drawable/balloon_bg">
+    <TextView 
+        android:id="@+id/accountManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        style="@style/ButtonText"
+        android:text="@string/account_manager"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+		android:textColor="#004570"
+		android:background="#00FF00"/>
+    
+    <ListView 
+        android:id="@+id/account_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1">
+        
+    </ListView>
+    
+    
+    <LinearLayout 
+        android:id="@+id/button_linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/linearlayout_bg">
+        
+        <Button 
+        android:id="@+id/add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/ButtonText"
+        android:text="@string/add_new_accoint"
+	    android:background="@drawable/layers_fb_button_bg"/>
+           
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">账号管家</string>
+    <string name="action_settings">设置</string>
+    <string name="account_manager">账号管家</string>
+    <string name="add_new_accoint">添加新账号</string>
+    <string name="update_accoint">更新账号</string>
+    <string name="name">名称</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="manage_account">管理账号</string>
+    <string name="update">更新</string>
+    <string name="delete">删除</string>
+    <string name="hint">请输入数据</string>
+    
+	<string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_cancel_button_text">"取消"</string>
+    <string name="lockpattern_ok_button_text">"开始绘制图形锁"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    <string name="set_password_success">设置成功</string>
+    <string name="draw_pattern_to_unlock">请绘制手势密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="unlock_success">解锁成功</string>
+    <string name="over_five_times">"您已5次输错密码，请30秒后再试"</string>
+    <string name="password_error_a">"密码错误，还可以再输入 "</string>
+    <string name="password_error_b">" 次"</string>
+    <string name="retry_a">"请 "</string>
+    <string name="retry_b">" 秒后重试"</string>
+    <string name="exit_app">再按一次后退键退出程序</string>
+    <string name="delete_alert">一个账号将被删除</string>
+    
+    
+     <style name="DefaultButtonText">
+	   <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#979797</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#f9f9f9</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">1</item>
+	</style>
+	
+    <style name="ButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+    
+	
+</resources>
