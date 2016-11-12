@@ -1,2 +1,3 @@
 # AccountManage
-这是一个Android版的账号管理器，使用Sqlite数据库，后续准备升级到云端数据库
+
+This is an " Accounts Manager " on Android. Now use Sqlite database, I will use online database in the future.
