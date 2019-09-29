@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".accountmanager.MainActivity"
+    android:background="@drawable/layers_fb_button_bg"
+    >
+    
+    <TextView 
+        android:id="@+id/manageAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        style="@style/ButtonText"
+        android:text="@string/manage_account"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_below="@id/manageAccount"
+        android:layout_height="1dp"
+		android:textColor="#004570"
+		android:background="#00FF00"/>
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+        
+       
+       <TextView 
+           android:id="@+id/tvName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/edittext_top_bg"
+	       android:padding="10dp"
+           android:textSize="18sp"
+           android:gravity="center_vertical"
+           android:drawableLeft="@drawable/email"/>
+            
+       <TextView
+           android:id="@+id/tvAccount" 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/edittext_default_bg"
+	       android:layout_marginTop="-2dp"
+	       android:padding="10dp"
+	       android:textSize="18sp"
+           android:gravity="center_vertical"
+           android:drawableLeft="@drawable/user"/>
+                 
+                      
+       <TextView 
+           android:id="@+id/tvPassword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/edittext_bottom_bg"
+	       android:layout_marginTop="-2dp"
+	       android:padding="10dp"
+           android:textSize="18sp"
+           android:gravity="center_vertical"
+           android:drawableLeft="@drawable/password"/>
+     
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/linearlayout_bg">
+        
+        <Button 
+            android:id="@+id/update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/update"
+	    	style="@style/ButtonText"
+	       	android:background="@drawable/layers_fb_button_bg"/>
+        
+        <Button 
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            style="@style/ButtonText"
+	       	android:background="@drawable/layers_fb_button_bg"/>
+        
+        
+    </LinearLayout>
+    
+ </LinearLayout>
+
+</RelativeLayout>
